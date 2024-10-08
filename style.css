@@ -1,4 +1,51 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.welcomeBar {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+}
+.welcomeBar2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+.welcome {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+.navTextWelcome {
+  height: 80px;
+  background-image: linear-gradient(to bottom right, red, blue);
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.welcomeMessage {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  font-style: oblique;
+}
+.navTexts {
+  display: flex;
+  justify-content: end;
+}
+.navText {
+  margin-left: 20px;
 }
