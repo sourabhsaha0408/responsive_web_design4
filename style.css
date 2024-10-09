@@ -120,7 +120,7 @@ video {
   height: 300px;
   margin: 20px;
 }
-.contributionRequest{
+.contributionRequest {
   height: 100px;
   display: flex;
   flex-direction: column;
@@ -129,23 +129,23 @@ video {
   color: blue;
   padding: 0px 40px;
 }
-.contributionBar{
-  background-image: linear-gradient(to bottom right, orange,indigo,yellow);
+.contributionBar {
+  background-image: linear-gradient(to bottom right, orange, indigo, yellow);
   padding: 0px 40px;
 }
-.inputDetails{
+.inputDetails {
   height: 160px;
 }
-.donorDetails{
+.donorDetails {
   width: 200px;
   padding: 5px 0px;
   margin: 5px 0px;
   border-radius: 5px;
 }
-.address{
+.address {
   width: 407px;
 }
-.paymentMode{
+.paymentMode {
   font-size: 20px;
   font-style: italic;
   color: yellow;
@@ -153,12 +153,49 @@ video {
   display: flex;
   align-items: center;
 }
-.allPaymentLinks{
+.allPaymentLinks {
   display: flex;
   align-items: center;
 }
-.creditcards{
+.creditcards {
   width: 100px;
   height: 50px;
   margin-right: 20px;
+}
+.helpLineThankU {
+  margin-top: 10px;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(
+    to right,
+    violet,
+    indigo,
+    blue,
+    green,
+    yellow,
+    orange,
+    red
+  );
+  height: 200px;
+}
+.helpLineInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.endText {
+  font-size: x-large;
+  font-weight: bolder;
+  color: yellow;
+}
+.thankU {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.foldedHands {
+  height: 150px;
 }
