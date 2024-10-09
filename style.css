@@ -120,3 +120,45 @@ video {
   height: 300px;
   margin: 20px;
 }
+.contributionRequest{
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+  color: blue;
+  padding: 0px 40px;
+}
+.contributionBar{
+  background-image: linear-gradient(to bottom right, orange,indigo,yellow);
+  padding: 0px 40px;
+}
+.inputDetails{
+  height: 160px;
+}
+.donorDetails{
+  width: 200px;
+  padding: 5px 0px;
+  margin: 5px 0px;
+  border-radius: 5px;
+}
+.address{
+  width: 407px;
+}
+.paymentMode{
+  font-size: 20px;
+  font-style: italic;
+  color: yellow;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+.allPaymentLinks{
+  display: flex;
+  align-items: center;
+}
+.creditcards{
+  width: 100px;
+  height: 50px;
+  margin-right: 20px;
+}
