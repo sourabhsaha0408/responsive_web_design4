@@ -49,3 +49,42 @@
 .navText {
   margin-left: 20px;
 }
+.videoSectionWithSchedule{
+  padding: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.videoBar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center ;
+}
+video{
+  height: 550px;
+  width: 900px;
+}
+.videoRelatedInformation{
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  width: 900px;
+  text-align: center;
+  color: red;
+}
+.eventInfo{
+  font-size: 30px;
+  font-weight: bolder;
+  color: green;
+  padding: 20px 0px;
+}
+.days{
+  color: indigo;
+  font-weight: bold;
+  font-size: 20px;
+  font-style: italic;
+}
+.eventTimings{
+  margin-left: 43px;
+  padding: 20px 0px;
+  color: violet;
+}
