@@ -153,11 +153,12 @@ video {
   font-size: 20px;
   font-style: italic;
   color: yellow;
-  height: 70px;
+  margin-top: 70px;
   display: flex;
   align-items: center;
 }
 .allPaymentLinks {
+  margin-top: 20px;
   display: flex;
   align-items: center;
 }
@@ -265,7 +266,6 @@ video {
   }
 }
 
-
 @media screen and (max-width: 960px) {
   .welcomeMessage {
     font-size: 30px;
@@ -276,7 +276,7 @@ video {
   .eventInfo {
     font-size: 25px;
   }
-  video{
+  video {
     width: 750px;
   }
   .pandalPics {
@@ -292,19 +292,26 @@ video {
   .welcomeMessage {
     font-size: 25px;
   }
+  .welcomeBar2 {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+  }
   .videoRelatedInformation {
     font-size: 25px;
   }
   .eventInfo {
     font-size: 25px;
   }
-  video{
+  video {
     width: 670px;
+    height: 450px;
+    /* background-color: red; */
   }
-  .timingsInfo{
+  .timingsInfo {
     height: 320px;
   }
-  .allFiveDays{
+  .allFiveDays {
     flex-wrap: wrap;
   }
   .pandalPics0 {
@@ -330,22 +337,94 @@ video {
   .welcomeMessage {
     font-size: 20px;
   }
+  .welcome {
+    width: 90px;
+    height: 100px;
+    object-fit: contain;
+  }
   .videoRelatedInformation {
     font-size: 20px;
   }
   .eventInfo {
     font-size: 20px;
   }
-  video{
+  video {
     width: 600px;
   }
-   .pandalPics0 {
+  .pandalPics0 {
     height: 1000px;
+  }
+  .helpLineThankU {
+    padding: 0px 20px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  video{
+  video {
     width: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .welcomeMessage {
+    font-size: 18px;
+  }
+  .navText{
+    font-size: 15px;
+  }
+  video {
+    width: 400px;
+  }
+  .timingsInfo {
+    height: 420px;
+  }
+  .pandalphotos {
+    width: 180px;
+    height: 220px;
+  }
+  .address {
+    width: 350px;
+  }
+  .creditcards {
+    width: 70px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  .endText {
+    font-size: larger;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navTextWelcome {
+    height: 60px;
+  }
+  .welcomeMessage {
+    font-size: 14px;
+  }
+  .navText{
+    font-size: 10px;
+  }
+  video {
+    width: 300px;
+  }
+  .pandalPics0 {
+    height: 2000px;
+  }
+  .pandalphotos {
+    width: 250px;
+    height: 220px;
+  }
+  .contributionRequest {
+    padding: 0px 20px;
+  }
+  .contributionBar {
+    padding: 0px 20px;
+  }
+  .address {
+    width: 300px;
+  }
+  .creditcards {
+    width: 60px;
   }
 }
